@@ -1,8 +1,47 @@
-baseURL = 'https://yonatanshaked.com/'
+baseURL = "https://yonatanshaked.com/"
+title = "Yonatan Shaked"
 languageCode = 'en-us'
-title = 'Yonatan Shaked'
-theme = 'lugo'
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[permalinks]
+    post = "/blog/:slug"
+
+[menu]
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 10
+
+  [[menu.main]]
+    name = "Uses"
+    url = "/uses"
+    weight = 30
+
+  [[menu.main]]
+    name = "Links"
+    url = "/links"
+    weight = 40
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 50
+
+  [[menu.social]]
+    name = "GitHub"
+    pre = "github"
+    url = "https://github.com/yonatanShaked"
+    weight = 10
+
+  [[menu.social]]
+    name = "RSS Feed"
+    pre = "rss"
+    url = "/index.xml"
+    weight = 30
+
+
+[markup]
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
+  [markup.highlight]
+    style = 'catppuccin-macchiato'

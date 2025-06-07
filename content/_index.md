@@ -1,12 +1,12 @@
 ---
-title: "Yonatan Shaked"
-description: "Welcome to my website"
+title: "Hey, I'm Yonatan Shaked."
+description: "I'm a **software developer** and this is my website."
 ---
 
-# Introduction
+{{< card >}}
+## Looking for something?
 
-![My Image](/yonatan.jpg)
-
-*Me.*
-
-I am Yonatan Shaked and this is my webpage. Thanks for stopping by!
+- 📜 Find my projects on [GitHub](https://github.com/yonatanshaked).
+- 💻 Want to know what programs I use on a daily basis? See my [Uses](/uses) page.
+- ✉ Want to get in touch? Feel free to [drop me a message](/contact).
+{{</ card >}}

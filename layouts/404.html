@@ -1,9 +1,9 @@
-{{ define "main" }}
-  <h1>404 Not Found</h1>
-  <p>The page you requested cannot be found.</p>
-  <p>
-    <a href="{{ .Site.Home.RelPermalink }}">
-      Return to the home page
-    </a>
-  </p>
-{{ end }}
+{{ partial "header.html" . }}
+
+<h1>404 Page Not Found</h1>
+
+<p>This page doesn't exist.</p>
+
+<p><a href="/">Go back to the home page</a></p>
+
+{{ partial "footer.html" . }}
