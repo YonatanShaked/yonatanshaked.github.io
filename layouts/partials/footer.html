@@ -1,18 +1,54 @@
 </main>
 
 <footer class="site-footer">
-    <p>by Yonatan Shaked. Last built {{ now.Format "02/01/2006" }}.</p>
-    <p>Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>. View the source code <a href="https://github.com/yonatanshaked/yonatanshaked.github.io" target="_blank" rel="noopener noreferrer">on GitHub</a>.</p>
+  <p>
+    by Yonatan Shaked. Last built {{ now.Format "02/01/2006" }}.
+  </p>
 
-    <ul class="menu menu-social">
-      {{ range.Site.Menus.social -}}
-      <li>
-        <a href="{{ .URL }}" target="_blank" rel="noopener noreferrer">
-          {{ partial "icon.html" (dict "icon" .Pre "title" .Name ) }}
-        </a>
-      </li>
-      {{- end }}
-    </ul>
+  <p>
+    <a href="#" id="themeToggle" onclick="toggleTheme(); return false;">Change theme</a>.
+  </p>
+
+  <p>
+    Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>. 
+    View the source code <a href="https://github.com/yonatanshaked/yonatanshaked.github.io" target="_blank" rel="noopener noreferrer">on GitHub</a>.
+  </p>
+
+  <ul class="menu menu-social">
+    {{ range.Site.Menus.social -}}
+    <li>
+      <a href="{{ .URL }}" target="_blank" rel="noopener noreferrer">
+        {{ partial "icon.html" (dict "icon" .Pre "title" .Name ) }}
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+
+<script>
+(function () {
+  const body = document.body;
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  // Default to dark if no preference saved
+  const activeTheme = savedTheme || (prefersDark ? 'dark' : 'dark');
+  if (activeTheme === 'dark') body.classList.add('dark');
+
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.textContent = `Change to ${body.classList.contains('dark') ? 'light' : 'dark'} theme`;
+  }
+
+  window.toggleTheme = function () {
+    const isDark = body.classList.toggle('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    if (themeToggle) {
+      themeToggle.textContent = `Change to ${isDark ? 'light' : 'dark'} theme`;
+    }
+  };
+})();
+</script>
+
 </footer>
 
 </body>

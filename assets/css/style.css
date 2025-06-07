@@ -20,18 +20,16 @@
 }
 
 /* Dark theme – Deep Red variant */
-@media (prefers-color-scheme: dark) {
-    :root {
-        color-scheme: dark;
-        --color-background: #110000;
-        --color-background-alt: #190101;
-        --color-text: #f0d6c8;
-        --color-text-bright: #fceee7;
-        --color-text-strong: #ffffff;
-        --color-subtext: #bb998a;
-        --color-primary: #ff914d;
-        --color-accent: #ffbe76;
-    }
+.dark {
+    color-scheme: dark;
+    --color-background: #110000;
+    --color-background-alt: #190101;
+    --color-text: #f0d6c8;
+    --color-text-bright: #fceee7;
+    --color-text-strong: #ffffff;
+    --color-subtext: #bb998a;
+    --color-primary: #ff914d;
+    --color-accent: #ffbe76;
 }
 
 /* Global styles */
