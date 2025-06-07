@@ -1,6 +1,6 @@
 ---
 title: Links
-lastmod: 2025-06-07
+lastmod: 2023-06-29
 ---
 
 Here are some links to other websites that I find useful or interesting.
@@ -10,3 +10,4 @@ Linking a website here does not constitute an endorsement of everything they've 
 {{</note>}}
 
 {{<links>}}
+
