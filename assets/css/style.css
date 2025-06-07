@@ -8,15 +8,15 @@
     --border-radius: 1rem;
     --border-radius-small: 0.5rem;
 
-    --color-background: #fff;
-    --color-background-alt: #f1f5f9;
-    --color-background-code: #1e293b;
-    --color-text: #334155;
-    --color-text-bright: #1e293b;
-    --color-text-strong: #020617;
-    --color-subtext: #475569;
-    --color-primary: #db2777;
-    --color-accent: #0284c7;
+    --color-background: #f9f0eb;
+    --color-background-alt: #f3dfd7;
+    --color-background-code: #e6cbc1;
+    --color-text: #322423;
+    --color-text-bright: #241816;
+    --color-text-strong: #100a09;
+    --color-subtext: #7f5a55;
+    --color-primary: #b8336a;
+    --color-accent: #2c6f91;
 }
 
 /* Dark theme – Deep Red variant */
