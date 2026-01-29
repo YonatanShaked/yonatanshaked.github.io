@@ -3,14 +3,27 @@ title: Uses
 lastmod: 2025-06-07
 ---
 
+This is a page of everything I use on a daily basis.
+
+My ideal way of using a computer of tech in general is to be as efficient and simple as possible, and essentially “work at the speed of thought, everytime”. My minimal configuration helps me to achieve that, but it may not be for everyone.
+
+![My Desktop](hyprland_ys.png "My minimal desktop.")
+
+You can check out my [dotfiles](https://github.com/YonatanShaked/Arch-Dotfiles) on GitHub.  
+
+If you're looking for something that's not listed on this page, feel free to [contact me](/contact) and ask.
+
 ## Hardware
 
-- For my laptop, I use a **ThinkPad P15 gen 2**. Yes, modern ThinkPads are still based. The build quality is great, an they're also available at reasonable prices online if you buy used or refurbished. However, they're not as upgradable as they once were, so keep that in mind.
+- My daily use laptop is a **ThinkPad X220**. It is lightweight, relativily fast for day to day tasks and most of all really upgradable. I have upgraded the RAM to 16GB, installed a m-sata drive, changed to an IPS display, installed a new Wifi Card and most importantly changed the stock BIOS to LibreBoot.
 
+- For my workstation laptop, I use a **ThinkPad P15 gen 2**. Yes, modern ThinkPads are still based. The build quality is great, an they're also available at reasonable prices online if you buy used or refurbished. However, they're not as upgradable as they once were, so keep that in mind. I usually only use this laptop at home since it quite chonky to carry around unlike my X220.
+
+- I also have a desktop PC with a Ryzen 5600X and RTX 3060 ti. I built it back in late 2020 and I plan to keep around as is for a long time due to the absurd hardware prices caused by the AI boom.
 ## Software
 
 - For my operating system, I use **[Arch Linux](https://archlinux.org/)** (btw). It's the only Linux distribution that gets out of my way and just lets me do my work. It's very minimal and easy-to-use _after_ you get over the initial learning curve, but it's definitely worth the investment.
-- **[DWM](https://dwm.suckless.org/)** is my laptop window manager. For my workflow, a tiling window manager is essential (especially for laptops) once you get over the learning curve, currently I'm usings **[Luke Smith's build of DWM](https://github.com/LukeSmithxyz/dwm/)** which I modified for my needs, however I do plan on creating my own build from scratch in the future, or switch to a wayland based TWM when Xorg is finally depricated.
+- **[Hyprland](https://hypr.land/)** is my laptop window manager. For my workflow, a tiling window manager is essential (especially for laptops) once you get over the learning curve. Hyprland uses Wayland and also has some nice animations. Previously, I’ve used DWM but I have decided to move to Wayland.
 - **[KDE](https://kde.org/plasma-desktop/)** is the desktop I run on my main PC, it can be heavily customizable to fit for my needs. I like using "traditional" desktop enviroments on a keyboard and mouse setup.
 - **[Alacritty](https://alacritty.org/)** is the terminal I use. It's very customizable but still very fast. For my shell, I use **[zsh](https://www.zsh.org/)** with plugins for syntax highlighting and auto-complete.
 - For my web browser, I use **[Brave](https://brave.com/)**. I've tried every other browser and Brave, despite its flaws, remains the best.
@@ -32,3 +45,13 @@ lastmod: 2025-06-07
 ## This Website
 
 - This site is built with **[Hugo](https://gohugo.io/)**, a static site generator that just outputs HTML and CSS instead of the bloated mess that is most of the modern web.
+
+## Phone
+
+- I use a **Google Pixel 8** with **GrapheneOS**. I think that GrapheneOS is the only phone OS which lets you truly "own" your phone.
+
+## Car
+
+- I drive a **2011 Toyota Camry**. This is the ulitimate "just works" car and as a bonus it is also nice looking and fairly strong for the average car in Israel.
+
+![My Camry](camry.jpg "A photo of my Camry after I polished it")
