@@ -10,7 +10,7 @@ This website is meant to be my **\"home base\"** on the internet. I will here po
 ## Looking for something?
 
 - 📜 Find my projects on [GitHub](https://github.com/yonatanshaked).
-- ⚙️ Checkout my dotfiles at [GitHub](https://github.com/YonatanShaked/Arch-Dotfiles).
-- 💻 Want to know what programs I use on a daily basis? See my [Uses](/uses) page.
-- ✉ Want to get in touch? Feel free to [drop me a message](/contact).
+- ⚙️ Checkout my dotfiles [here](https://github.com/YonatanShaked/Arch-Dotfiles).
+- 💻 Want to know what programs and tech I use on a daily basis? See my [Uses](/uses) page.
+- 📬 Want to get in touch? Feel free to [drop me a message](/contact).
   {{</ card >}}
