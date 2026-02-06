@@ -2,12 +2,11 @@
 
 My personal website.
 
-## Links:
+## Links
 
-- https://yonatanshaked.com
-- https://www.yonatanshaked.com 
-- https://yonatanshaked.github.io
-
+- <https://yonatanshaked.com>
+- <https://www.yonatanshaked.com>
+- <https://yonatanshaked.github.io>
 
 ## Hugo
 
