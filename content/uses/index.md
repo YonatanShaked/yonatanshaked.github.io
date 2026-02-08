@@ -54,7 +54,7 @@ If you're looking for something that's not listed on this page, feel free to [co
 
 ## Theme
 
-- I use both **[Catppuccin](https://github.com/catppuccin/catppuccin)** color scheme and the color scheme used in this site for pretty much everything.
+- I use the **[Catppuccin](https://github.com/catppuccin/catppuccin)** color scheme and theme for pretty much everything.
 - For a font I use the **Hack Nerd Font**, nerd fonts are awesome and I really like their icon system.
 
 ## This Website
