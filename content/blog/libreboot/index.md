@@ -18,6 +18,8 @@ But a few weeks ago I browsed AliExpress and I found an original **pomona SOIC 8
 
 {{< /card >}}
 
+I recommend getting these as cheaply as possible, or better yet, borrowing them from someone.
+
 ---
 
 First thing was to download the [latest release of Libreboot](https://libreboot.org/download.html) from the official site and cloning [the build system repository](https://codeberg.org/libreboot/lbmk) to add the vendor files to the Libreboot ROM image before burning it.\n\n 
