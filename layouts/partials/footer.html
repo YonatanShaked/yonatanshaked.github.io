@@ -2,7 +2,7 @@
 
 <footer class="site-footer">
   <p>
-    <a href="#" id="themeToggle" onclick="toggleTheme(); return false;">Change theme</a>.
+    <a href="#" id="themeToggle" onclick="toggleTheme(); return false;">Change theme</a>
   </p>
 
   <p>
@@ -30,21 +30,25 @@
   const savedTheme = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  // Default to dark if no preference saved
+  // Default to dark
   const activeTheme = savedTheme || (prefersDark ? 'dark' : 'dark');
   if (activeTheme === 'dark') body.classList.add('dark');
 
   const themeToggle = document.getElementById('themeToggle');
-  if (themeToggle) {
-    themeToggle.textContent = `Change to ${body.classList.contains('dark') ? 'light' : 'dark'} theme`;
+
+  function updateToggleText(isDark) {
+    if (!themeToggle) return;
+    themeToggle.textContent = isDark
+      ? 'Change theme to light mode 🌞'
+      : 'Change theme to dark mode 🌚';
   }
+
+  updateToggleText(body.classList.contains('dark'));
 
   window.toggleTheme = function () {
     const isDark = body.classList.toggle('dark');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    if (themeToggle) {
-      themeToggle.textContent = `Change to ${isDark ? 'light' : 'dark'} theme`;
-    }
+    updateToggleText(isDark);
   };
 })();
 </script>
