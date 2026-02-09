@@ -44,4 +44,4 @@ languageCode = 'en-us'
   [markup.goldmark.parser]
     wrapStandAloneImageWithinParagraph = false
   [markup.highlight]
-    style = 'catppuccin-macchiato'
+    style = 'catppuccin-mocha'

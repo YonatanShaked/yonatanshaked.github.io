@@ -1,12 +1,8 @@
 {
   "links": {
     "title": "Interesting Websites",
-    "description": "",
+    "description": "Interesting websites by individuals",
     "links": [
-      {
-        "title": "Cheapskate's Guide",
-        "link": "https://cheapskatesguide.org/"
-      },
       {
         "title": "Luke Smith",
         "link": "https://lukesmith.xyz/",
@@ -16,6 +12,43 @@
         "title": "Lunduke Journal",
         "link": "https://lunduke.com/",
         "rss": "https://api.substack.com/feed/podcast/462466.rss"
+      },
+      {
+        "title": "CozyNet",
+        "link": "https://www.cozynet.org/",
+        "rss": "https://www.cozynet.org/feed/feed.xml"
+      },
+      {
+        "title": "Richard Stallman",
+        "link": "https://stallman.org/",
+        "rss": "https://stallman.org/rss/rss.xml"
+      },
+      {
+        "title": "Paul Graham",
+        "link": "https://paulgraham.com/index.html",
+        "rss": "http://www.aaronsw.com/2002/feeds/pgessays.rss"
+      }
+    ]
+  },
+  "guides": {
+    "title": "Guides",
+    "description": "Useful guides on various topics",
+    "links": [
+      {
+        "title": "Cheapskate's Guide",
+        "link": "https://cheapskatesguide.org/"
+      },
+      {
+        "title": "ThinkPad X220 Guide",
+        "link": "https://mcdonnelltech.wixsite.com/x220"
+      },
+      {
+        "title": "ThinkWiki",
+        "link": "https://www.thinkwiki.org/wiki/ThinkWiki"
+      },
+      {
+        "title": "Learn X in Y minutes",
+        "link": "https://learnxinyminutes.com/"
       }
     ]
   }
