@@ -3,26 +3,24 @@ title: "Installing Libreboot on my ThinkPad X220"
 date: 2026-02-08T22:37:56+02:00
 ---
 
-After many years of owning my ThinkPad X220 I have finally decided to install Libreboot on it. I wanted to do it a year ago and in fact I bought a **CH341A BIOS programmer** last year, but after trying to place the clip that came with it on the BIOS chip I decided to not go through with it because the connection felt flimsy and the clip would not stop popping off...\n\n 
+After many years of owning my ThinkPad X220 I have finally decided to install Libreboot on it. I wanted to do it a year ago and in fact I bought a **CH341A BIOS programmer** last year, but after trying to place the clip that came with it on the BIOS chip I decided to not go through with it because the connection felt flimsy and the clip would not stop popping off... 
 
 But a few weeks ago I browsed AliExpress and I found an original **pomona SOIC 8 pin clip** for only $7, which is a huge bargain since last year I looked for one the price was in the $70 range 🤯. So after I got the pomona clip and I had some free time, I went through the installation.
 
 {{< card >}}
     
-### The tools I used for installing Libreboot:
+## The tools I used for installing Libreboot:
 
 - CH341A BIOS programmer
 - Pomona 8-pin SOIC clip
 - 6 female to female wires
 - Screwdriver
 
+*I recommend getting these as cheaply as possible, or better yet, borrowing them from someone.*
+
 {{< /card >}}
 
-I recommend getting these as cheaply as possible, or better yet, borrowing them from someone.
-
----
-
-First thing was to download the [latest release of Libreboot](https://libreboot.org/download.html) from the official site and cloning [the build system repository](https://codeberg.org/libreboot/lbmk) to add the vendor files to the Libreboot ROM image before burning it.\n\n 
+First thing was to download the [latest release of Libreboot](https://libreboot.org/download.html) from the official site and cloning [the build system repository](https://codeberg.org/libreboot/lbmk) to add the vendor files to the Libreboot ROM image before burning it.
 
 Then I disassembled my ThinkPad which is really easy (you can find a guide in the links below) and then I located the BIOS chip which is on the left side under the anti-static sticker as can be seen in the image below.
 
@@ -58,7 +56,7 @@ Now the annoying part... After already connecting the programmer to my PC, the o
 
 ![stage 4](stage4.jpg "Success! Libreboot is running on my X220 :)")
 
-I booted my laptop and all was well, however installing Libreboot made Linux think I have another phantom monitor attached and it made Hyprland act weird, so I had to disable it from my Hyprland config file.\n\n 
+I booted my laptop and all was well, however installing Libreboot made Linux think I have another phantom monitor attached and it made Hyprland act weird, so I had to disable it from my Hyprland config file.
 
 Overall I'm glad I installed Libreboot on my ThinkPad and I think that anyone who owns a ThinkPad capable of being Librebooted should go with it. If you want to install Libreboot on your ThinkPad and need any help with that, feel free to message me.
 

@@ -7,7 +7,7 @@ This is a page of every tech that I use on a daily basis.
 
 My ideal way of using a computer or tech in general is to be as efficient and simple as possible, and essentially “work at the speed of thought, every time”. My minimal configuration helps me achieve that, but it may not be for everyone.
 
-![My Desktop](hyprland_ys.png "My minimal desktop.")
+![My Desktop](desktop_screenshot.png "My minimal desktop.")
 
 You can check out my [dotfiles](https://github.com/YonatanShaked/Arch-Dotfiles) on GitHub.
 
@@ -15,7 +15,7 @@ If you're looking for something that's not listed on this page, feel free to [co
 
 ## Hardware
 
-- My daily-use laptop is a **ThinkPad X220**. It is lightweight, relatively fast for day-to-day tasks, and most of all really upgradable. I have upgraded the RAM to 16GB, installed an mSATA drive, changed to an IPS panel, installed a new Wi-Fi card, and most importantly replaced the stock BIOS with Libreboot.
+- My daily-use laptop is a **ThinkPad X220**. It is lightweight, relatively fast for day-to-day tasks, and most of all really upgradable. I have upgraded the RAM to 16GB, installed an mSATA drive, changed to an IPS panel, installed a new Wi-Fi card, and most importantly replaced the stock BIOS with [Libreboot](/blog/libreboot).
 
 - For my workstation laptop, I use a **ThinkPad P15 Gen 2**. Yes, modern ThinkPads are still based. The build quality is great, and they're also available at reasonable prices online if you buy used or refurbished. However, they're not as upgradable as they once were, so keep that in mind. I usually only use this laptop at home since it’s quite chunky to carry around, unlike my X220.
 
