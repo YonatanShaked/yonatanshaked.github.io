@@ -27,6 +27,11 @@
         "title": "Paul Graham",
         "link": "https://paulgraham.com/index.html",
         "rss": "http://www.aaronsw.com/2002/feeds/pgessays.rss"
+      },
+      {
+        "title": "Vaxry",
+        "link": "https://vaxry.net/",
+        "rss": "https://blog.vaxry.net/feed"
       }
     ]
   },
