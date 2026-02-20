@@ -17,9 +17,9 @@
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if not .IsHome }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}'s website</description>
     <generator>Hugo -- gohugo.io</generator>
-    {{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
+    {{ with .Params.author.email }}
+    <managingEditor>{{.}}{{ with $.Params.author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Params.author.email }}
+    <webMaster>{{.}}{{ with $.Params.author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{- with .OutputFormats.Get "RSS" -}}
@@ -30,7 +30,7 @@
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+      {{ with .Params.author.email }}<author>{{.}}{{ with $.Params.author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
     </item>

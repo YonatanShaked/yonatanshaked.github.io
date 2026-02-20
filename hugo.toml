@@ -2,6 +2,10 @@ baseURL = "https://yonatanshaked.com/"
 title = "Yonatan Shaked"
 languageCode = 'en-us'
 
+[params.author]
+name = "Yonatan Shaked"
+email = "yonatan@yonatanshaked.com"
+
 [permalinks]
     post = "/blog/:slug"
 
