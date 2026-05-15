@@ -31,7 +31,7 @@ If you're looking for something that's not listed on this page, feel free to [co
 
 - **[Alacritty](https://alacritty.org/)** is the terminal I use. It's very customizable while still being extremely fast. For my shell, I use **[zsh](https://www.zsh.org/)** with plugins for syntax highlighting and auto-completion.
 
-- For my web browser, I use **[Brave](https://brave.com/)**. I've tried every other browser, and Brave—despite its flaws—remains the best for my use case.
+- For my web browser, I use **[Helium](https://helium.computer/)**. I value giving control back to the user, and Helium is the best tool for achieving that. It's built on a framework that emphasizes user privacy and ownership, making it far superior to proprietary options for my workflow.
   - Browser extensions I use: **[uBlock Origin](https://ublockorigin.com/)** to block ads and trackers, **[DecentralEyes](https://decentraleyes.org/)** for additional tracking protection, and **[Bitwarden](https://bitwarden.com/)** for password management.
 
 ## Services
