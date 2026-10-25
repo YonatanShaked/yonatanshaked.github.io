@@ -2,7 +2,7 @@
 {{- $filledPathRss := replace $rss "<path" "<path fill='currentColor'" -}}
 {{- $titledRss := replaceRE "<svg (.*?)>" (printf `<svg role="img" width="16" height="16" $1 ><title>RSS</title>`) $filledPathRss -}}
 
-{{ range .Site.Data.links }}
+{{ range hugo.Data.links }}
   <h2>{{ .title }}</h2>
   <p>{{ .description }}</p>
   

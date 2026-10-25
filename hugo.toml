@@ -1,6 +1,6 @@
 baseURL = "https://yonatanshaked.com/"
 title = "Yonatan Shaked"
-languageCode = 'en-us'
+locale = 'en-US'
 
 [params.author]
 name = "Yonatan Shaked"
